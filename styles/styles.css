@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -27,6 +33,11 @@ p {
 
 main {
     max-width: 840px;
+    margin-left: 10px;
+}
+
+main h1{
+    display: inline-block;
 }
 
 aside {
@@ -37,6 +48,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -47,6 +59,11 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    padding: 2px;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p { padding: 0; }
@@ -55,4 +72,23 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Clas Selectors */
+
+.box {
+    margin: 1rem;
+    margin-top: 35px;
+    border: 1px solid rgba( 0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+
+}
+
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 90px;
 }

@@ -3,7 +3,7 @@
 :root {
     --primary-color: #14726c;
     --secondary-color: #f2a341;
-    --accent1-color: #9c3512;
+    --accent1-color: #468faf;
     --accent2-color: #3a1d2a;
 
     --heading-font: 'Roboto', sans-serif;
@@ -15,11 +15,13 @@
     --nav-hover-background-color: #3a3a3a;
 }
 
+/* my first css comment */
+
 body {
     font-family: var(--paragraph-font);
     margin: 0;
     padding: 0;
-    text-align: center;
+    background-color: aliceblue;
     
 }
 
@@ -28,9 +30,19 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+h1{
+    text-shadow: 2px 2px 3px #000814;
+
+}
+h3, h4{
+    font-size: 21px;
+}
+
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    border-radius: 10px;
 }
 
 p {
