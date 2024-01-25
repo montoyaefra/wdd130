@@ -87,6 +87,10 @@ footer {
 
 }
 
+ul  {
+   width: 400px;
+} 
+
 
 aside h2 {
     position: absolute;
