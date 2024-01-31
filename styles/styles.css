@@ -23,6 +23,8 @@ nav a {
 
 h1 {
     color: steelblue;
+    border-bottom: 3px solid steelblue;
+    margin-bottom: 10px;
 }
 
 img{
@@ -40,6 +42,7 @@ p {
 main {
     grid-column: 2/3;
     margin: 14px;
+    align-items: center;
 }
 
 main h1{
@@ -117,13 +120,13 @@ a {
 .grid {
     display: grid;
     align-items: center;
-    justify-items: center;
+
 }
 
-hr {
+/* hr {
     margin-bottom: 5px;
     border: 1px solid steelblue;
-}
+} */
 
 a:hover{
     color: #09ffff;
