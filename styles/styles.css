@@ -60,8 +60,8 @@ aside {
 }
 
 aside img {
-    width: 270px;
-    height: 270px;
+   width: 270px;
+   max-height: 270px;
 }
 
 main img {
@@ -84,7 +84,6 @@ footer {
 /* Class Selectors */
 
 .box {
-    margin: 1rem;
     margin-top: 35px;
     border: 1px solid rgba( 0, 0, 0, .1);
     padding: 1rem;
@@ -94,7 +93,7 @@ footer {
 }
 
 ul  {
-   width: 240px;
+   width: 235px;
    border: solid gray;
    border-radius: 10px;
 } 
@@ -106,9 +105,9 @@ aside h2 {
     left: 90px;
 }
 
-header, footer {
-    max-width: 840px;
+header, footer, .grid {
     margin: 0 auto;
+    max-width: 840px;
 }
 
 a {
@@ -119,8 +118,6 @@ a {
     display: grid;
     align-items: center;
     justify-items: center;
-    margin: 0 auto;
-    max-width: 840px;
 }
 
 hr {
