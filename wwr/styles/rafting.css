@@ -167,12 +167,13 @@ p{
 }
 
 .grid_section{
+  width: 1440px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
   text-align: center;
-  margin: 2em;
+  margin: 3em auto;
   background-color: var(--secondary-color);
   padding: 2em;
   border-radius: 2px;
@@ -186,7 +187,7 @@ p{
 }
 
 .grid_section img{
-  width: 300px;
+  width: 350px;
   border-radius: 2px;
   
 }
@@ -196,8 +197,9 @@ p{
 }
 
 footer{
+  width: 1440px;
   display: grid;
-  margin: 2rem;
+  margin: 2rem auto;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   align-items: center;
@@ -224,8 +226,6 @@ footer nav a:hover img {
 footer nav a img {
   transition: filter 0.3s ease-in-out;
 }
-
-
 
 
 
