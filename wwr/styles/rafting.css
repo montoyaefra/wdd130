@@ -140,7 +140,7 @@ p{
   font-size: 21px;
 }
 
-.galery {
+.gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
@@ -148,16 +148,18 @@ p{
   background-color: var(--secondary-color);
   border-radius: 2px;
   padding: 25px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.galery img {
+.gallery img {
   width: 250px;
   height: auto;
   grid-column: span 1;
   border-radius: 2px;
 }
 
-.galery h2 {
+.gallery h2 {
   grid-column: 1/6;
   text-align: center;
   margin: 1rem 0  1rem;
