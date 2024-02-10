@@ -228,5 +228,149 @@ footer nav a img {
 }
 
 
+footer b {
+  color: black;
+  font-weight: bolder;
+  
+}
+
+footer b:hover{
+  color:var(--nav-hover-link-color);
+  transition: 0.4s linear;
+  font-size: 20px;
+}
+
+
+.employee-profiles{
+  background-color: var(--secondary-color);
+  align-items: center;
+  text-align: center;
+  border-radius: 2px;
+  margin-bottom: 2em;
+}
+
+.employee-profiles h2 {
+  padding: 1.5rem;
+}
+
+.employee-profiles figcaption {
+  padding: 1rem;
+}
+
+.employee-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+}
+
+.employee-profiles img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5em;
+  /* overflow: hidden; */
+}
+
+
+.company-info {
+  background-image: url(/wwr/images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 4rem;
+  border-radius: 2px;
+  text-align: center;
+  
+}
+
+.company-info h1 {
+  font-size: 2rem;
+}
+
+.adresses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.adresses p, .company-info h1 {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 20px;
+}
+
+.map {
+  margin: 2rem;
+  animation: opacityChange 2.5s infinite alternate;
+}
+
+.map:hover {
+  animation: none;
+}
+
+@keyframes opacityChange {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+.contact-form {
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.contact-form h2 {
+  margin-bottom: 10px;
+}
+
+.contact-form form {
+  width: 50%;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
 
 /* remember to use variables css*/
