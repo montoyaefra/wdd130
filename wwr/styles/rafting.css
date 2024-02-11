@@ -297,6 +297,14 @@ footer b:hover{
   justify-content: center;
 }
 
+.adresses a{
+  color: #fff;
+}
+
+.adresses a:hover{
+  color: var(--nav-hover-link-color);
+}
+
 .adresses p, .company-info h1 {
   display: inline-block;
   color: #fff;
